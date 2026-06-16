@@ -3,27 +3,25 @@
 int main() {
  
     int aura
-    char nome[50]
+    shar nome[50]
     char profissao[50];
- 
-    printf("Qual e a aura deste trabalho? ")
-    scanff("%d", &aura);
- 
+
     printf("Digite seu nome: ");
-    scanf("%s", nome)
+    scanf("%i", nome)
  
     printf("Digite a profissao que voce quer ter: ";
     scanf("%s", profissao);
  
+    printf("Qual e a aura deste trabalho? ")
+    scanff("%i", &aura);
+ 
     printf("Ola, %s!\n", nomes);
  
     printf("Voce quer ser %s\n", profissaoDesejada);
+
+    printf("Aura detectada com sucesso!\n);
  
-    if (aura >= 50)
-        printf("Trabalho aprovado!\n");
-        printf("Parabens!\n")
- 
-    printf("Aura deste trabalho: %d\n", auras);
+    printf("Aura total: %d\n", auras);
  
     return 0
-} 
+}

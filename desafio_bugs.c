@@ -23,5 +23,5 @@ int main() {
  
     printf("Aura total: %d\n", auras);
  
-    return 0
+    return 0;
 }
